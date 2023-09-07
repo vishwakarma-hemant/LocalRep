@@ -1,0 +1,108 @@
+@media only screen and (max-width:852px)
+{
+    .navbar{
+        height:260px;
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction:column;
+        background-color: rgb(121, 101, 101);
+        color:aqua;
+    }
+    .nav-logo{
+        height:70px;
+        width:80px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .nav-list{   margin:2 0px;
+                  flex-direction:column;
+                  position:fiexd;
+                  top:5px;
+                  left:0px;
+    }
+    .nav-list li {
+        padding:5px 0px;
+    }
+    .nav-list li a{
+        color:rgb(98, 209, 209);
+    }
+    .hero-section{
+        height:80vh;
+        width:100%;
+        display:flex;
+    }
+    .hero{
+        width:50%;
+        height:80vh;
+        background-image:url('css/jaan.jpg');
+        background-size:cover;
+
+    }
+    .zero{
+        width:50%;
+        height:80vh;
+        background-image:url("css/lisa.jpg");
+        background-size:cover;
+    
+ }
+ .burger{
+    display:block;
+ }
+
+
+ .v-class{
+    opacity: 0;
+}
+.h-class{
+    height:50px;
+    }
+
+
+
+}
+@media only screen and (max-width:675px){
+    .nav-search{
+        flex-direction:column;
+    }
+    .hero-section{
+        width:100%;
+        height:300vh;
+        flex-direction:column;
+    }
+    .hero{
+        width:100%;
+        height:150vh;
+
+    }
+    .zero{
+        width:100%;
+        height:150vh;
+    }
+.navbar{
+    height:280px;
+     }
+     .search{
+        background-color: transparent;
+        color:white;
+        border:2px solid white;
+    
+     }
+     button{
+        margin-top:4px;
+     }
+     .search::placeholder{
+        color:rgb(245, 193, 21);
+    
+     }
+     
+ .v-class{
+    opacity: 0;
+}
+.h-class{
+    height:50px;
+    }
+
+}
